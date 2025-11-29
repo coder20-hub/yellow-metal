@@ -7,7 +7,7 @@
   publish = "frontend/.next"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
 # Next.js plugin for Netlify (handles routing automatically)
