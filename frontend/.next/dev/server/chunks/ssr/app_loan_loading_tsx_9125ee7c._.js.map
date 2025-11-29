@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/koust/Downloads/code/frontend/app/loan/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n  return (\r\n    <div className=\"flex min-h-screen items-center justify-center bg-white\">\r\n      <div className=\"text-center\">\r\n        <div className=\"animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4\"></div>\r\n        <p className=\"text-gray-600\">Loading loan application...</p>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAI,WAAU;;;;;;8BACf,8OAAC;oBAAE,WAAU;8BAAgB;;;;;;;;;;;;;;;;;AAIrC"}}]
+}

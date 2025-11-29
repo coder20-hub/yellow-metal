@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Geist', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+  --color-primary: #1d4ed8;
+  --color-accent: #10b981;
+  --color-neutral-50: #f9fafb;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-600: #4b5563;
+  --color-neutral-900: #111827;
+  --radius: 0.5rem;
+}
+
+* {
+  @apply antialiased;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-white text-black;
+}
+
+button {
+  @apply transition-colors duration-200;
+}
+
+section {
+  @apply scroll-mt-16;
+}
+
+/* Added Yellow Metal specific styles */
+.tab-button {
+  @apply px-6 py-2 rounded-full font-medium transition-all duration-300;
+}
+
+.tab-button.active {
+  @apply bg-green-600 text-white;
+}
+
+.tab-button.inactive {
+  @apply bg-white text-gray-800 border border-gray-300;
+}
+
+.card-shadow {
+  @apply shadow-lg rounded-2xl;
+}
+
+/* Adding smooth horizontal scroll animation for ticker */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}

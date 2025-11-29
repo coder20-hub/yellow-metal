@@ -1,0 +1,4 @@
+{
+  "/api/gold-rates/route": "app/api/gold-rates/route.js",
+  "/page": "app/page.js"
+}

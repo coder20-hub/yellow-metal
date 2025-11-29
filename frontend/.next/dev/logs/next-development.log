@@ -1,0 +1,105 @@
+[00:00:01.313] Server  LOG      ✓ Ready in 825ms
+[00:00:01.486] Server  WARN     ⚠ Cross origin request detected from 192.168.56.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:04.032] Server  ERROR   Received `true` for a non-boolean attribute `priority`.
+
+If you want to write it to the DOM, pass a string instead: priority="true" or priority={value.toString()}.
+[00:00:04.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.223] Server  LOG     === IBJA Gold Rates API Called ===
+[00:00:05.358] Server  LOG     IBJA page fetched successfully, length: 147233
+[00:00:05.361] Server  LOG     Parsing IBJA HTML...
+[00:00:05.442] Server  LOG     Method 1: Extract purity + rate pairs...
+[00:00:05.442] Server  LOG     ✓ Found 999 purity: ₹12659/gram
+[00:00:05.443] Server  LOG     ✓ Found 995 purity: ₹12608/gram
+[00:00:05.444] Server  LOG     ✓ Found 916 purity: ₹11596/gram
+[00:00:05.444] Server  LOG     ✓ Found 750 purity: ₹9494/gram
+[00:00:05.445] Server  LOG     ✓ Found 585 purity: ₹7406/gram
+[00:00:05.445] Server  LOG     Parsing silver rate...
+[00:00:05.451] Server  LOG     
+✅ Total gold rates parsed: 5
+[00:00:05.452] Server  LOG     Final parsed gold rates:
+[00:00:05.452] Server  LOG       999 purity: ₹12659/gram
+[00:00:05.453] Server  LOG       995 purity: ₹12608/gram
+[00:00:05.453] Server  LOG       916 purity: ₹11596/gram
+[00:00:05.454] Server  LOG       750 purity: ₹9494/gram
+[00:00:05.454] Server  LOG       585 purity: ₹7406/gram
+[00:00:05.455] Server  WARN    ⚠️ Silver rate not found, using fallback
+[00:00:05.457] Server  LOG     Parsed gold rates: [{...},{...},{...},{...},{...}]
+[00:00:05.457] Server  LOG     Parsed silver rate: 0
+[00:00:05.458] Server  LOG     Using 995 purity base rate: 12608
+[00:00:05.458] Server  LOG     Calculated karat rates: {}
+[00:00:05.465] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true priority priority true priority
+[00:00:05.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:05.465] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:05.465] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764423158369}
+[00:05:05.495] Server  LOG     === IBJA Gold Rates API Called ===
+[00:05:05.636] Server  LOG     IBJA page fetched successfully, length: 147233
+[00:05:05.638] Server  LOG     Parsing IBJA HTML...
+[00:05:05.769] Server  LOG     Method 1: Extract purity + rate pairs...
+[00:05:05.771] Server  LOG     ✓ Found 999 purity: ₹12659/gram
+[00:05:05.771] Server  LOG     ✓ Found 995 purity: ₹12608/gram
+[00:05:05.772] Server  LOG     ✓ Found 916 purity: ₹11596/gram
+[00:05:05.773] Server  LOG     ✓ Found 750 purity: ₹9494/gram
+[00:05:05.773] Server  LOG     ✓ Found 585 purity: ₹7406/gram
+[00:05:05.774] Server  LOG     Parsing silver rate...
+[00:05:05.780] Server  LOG     
+✅ Total gold rates parsed: 5
+[00:05:05.780] Server  LOG     Final parsed gold rates:
+[00:05:05.781] Server  LOG       999 purity: ₹12659/gram
+[00:05:05.781] Server  LOG       995 purity: ₹12608/gram
+[00:05:05.782] Server  LOG       916 purity: ₹11596/gram
+[00:05:05.783] Server  LOG       750 purity: ₹9494/gram
+[00:05:05.783] Server  LOG       585 purity: ₹7406/gram
+[00:05:05.784] Server  WARN    ⚠️ Silver rate not found, using fallback
+[00:05:05.785] Server  LOG     Parsed gold rates: [{...},{...},{...},{...},{...}]
+[00:05:05.786] Server  LOG     Parsed silver rate: 0
+[00:05:05.786] Server  LOG     Using 995 purity base rate: 12608
+[00:05:05.788] Server  LOG     Calculated karat rates: {}
+[00:10:05.488] Server  LOG     === IBJA Gold Rates API Called ===
+[00:10:05.638] Server  LOG     IBJA page fetched successfully, length: 147233
+[00:10:05.638] Server  LOG     Parsing IBJA HTML...
+[00:10:05.700] Server  LOG     Method 1: Extract purity + rate pairs...
+[00:10:05.700] Server  LOG     ✓ Found 999 purity: ₹12659/gram
+[00:10:05.702] Server  LOG     ✓ Found 995 purity: ₹12608/gram
+[00:10:05.703] Server  LOG     ✓ Found 916 purity: ₹11596/gram
+[00:10:05.703] Server  LOG     ✓ Found 750 purity: ₹9494/gram
+[00:10:05.704] Server  LOG     ✓ Found 585 purity: ₹7406/gram
+[00:10:05.707] Server  LOG     Parsing silver rate...
+[00:10:05.714] Server  LOG     
+✅ Total gold rates parsed: 5
+[00:10:05.715] Server  LOG     Final parsed gold rates:
+[00:10:05.716] Server  LOG       999 purity: ₹12659/gram
+[00:10:05.717] Server  LOG       995 purity: ₹12608/gram
+[00:10:05.718] Server  LOG       916 purity: ₹11596/gram
+[00:10:05.719] Server  LOG       750 purity: ₹9494/gram
+[00:10:05.719] Server  LOG       585 purity: ₹7406/gram
+[00:10:05.720] Server  WARN    ⚠️ Silver rate not found, using fallback
+[00:10:05.729] Server  LOG     Parsed gold rates: [{...},{...},{...},{...},{...}]
+[00:10:05.731] Server  LOG     Parsed silver rate: 0
+[00:10:05.732] Server  LOG     Using 995 purity base rate: 12608
+[00:10:05.733] Server  LOG     Calculated karat rates: {}
+[00:15:05.502] Server  LOG     === IBJA Gold Rates API Called ===
+[00:15:05.644] Server  LOG     IBJA page fetched successfully, length: 147233
+[00:15:05.646] Server  LOG     Parsing IBJA HTML...
+[00:15:05.688] Server  LOG     Method 1: Extract purity + rate pairs...
+[00:15:05.688] Server  LOG     ✓ Found 999 purity: ₹12659/gram
+[00:15:05.689] Server  LOG     ✓ Found 995 purity: ₹12608/gram
+[00:15:05.689] Server  LOG     ✓ Found 916 purity: ₹11596/gram
+[00:15:05.690] Server  LOG     ✓ Found 750 purity: ₹9494/gram
+[00:15:05.690] Server  LOG     ✓ Found 585 purity: ₹7406/gram
+[00:15:05.691] Server  LOG     Parsing silver rate...
+[00:15:05.693] Server  LOG     
+✅ Total gold rates parsed: 5
+[00:15:05.694] Server  LOG     Final parsed gold rates:
+[00:15:05.696] Server  LOG       999 purity: ₹12659/gram
+[00:15:05.698] Server  LOG       995 purity: ₹12608/gram
+[00:15:05.699] Server  LOG       916 purity: ₹11596/gram
+[00:15:05.700] Server  LOG       750 purity: ₹9494/gram
+[00:15:05.701] Server  LOG       585 purity: ₹7406/gram
+[00:15:05.702] Server  WARN    ⚠️ Silver rate not found, using fallback
+[00:15:05.704] Server  LOG     Parsed gold rates: [{...},{...},{...},{...},{...}]
+[00:15:05.705] Server  LOG     Parsed silver rate: 0
+[00:15:05.705] Server  LOG     Using 995 purity base rate: 12608
+[00:15:05.706] Server  LOG     Calculated karat rates: {}
