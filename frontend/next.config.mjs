@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'standalone', // Better for Netlify deployment
+  // Removed 'standalone' output mode - Netlify Next.js plugin handles this
 }
 
 export default nextConfig

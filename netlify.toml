@@ -1,0 +1,22 @@
+# Netlify Configuration for Next.js App
+# The frontend directory contains the Next.js application
+
+[build]
+  base = "frontend"
+  command = "npm install && npm run build"
+  publish = "frontend/.next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Next.js plugin for Netlify (handles routing automatically)
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Redirect all requests to Next.js
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/___netlify-handler"
+  status = 200
+
