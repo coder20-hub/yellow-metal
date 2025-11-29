@@ -3,20 +3,14 @@
 
 [build]
   base = "frontend"
-  command = "npm install && npm run build"
-  publish = "frontend/.next"
+  command = "npm run build"
+  # Do NOT set publish directory - Next.js plugin handles this automatically
 
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
-# Next.js plugin for Netlify (handles routing automatically)
+# Next.js plugin for Netlify (handles routing and publishing automatically)
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-# Redirect all requests to Next.js
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/___netlify-handler"
-  status = 200
 
